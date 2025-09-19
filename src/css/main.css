@@ -565,3 +565,16 @@ g:has(rect[mask='url(#svg-mask-status-streaming)']) {
 .visual-refresh .scroller_ef3116::-webkit-scrollbar, .scroller_affa7e::-webkit-scrollbar {
     display: none !important;
 }
+
+/* Adds borders to any buttons added in the top bar area */
+div.trailing_c38106 div[role=button] { 
+
+    border: 1px solid !important;
+    border-color: var(--light-border) var(--dark-border) var(--dark-border) var(--light-border) !important;
+}
+/*Adds border and padding to the inbox button*/
+div.trailing_c38106 .clickable_c99c29 { 
+    padding: 4px;
+    border: 1px solid !important;
+    border-color: var(--light-border) var(--dark-border) var(--dark-border) var(--light-border) !important;
+}
